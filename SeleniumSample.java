@@ -5,7 +5,7 @@ public class SeleniumSample {
 
 	public static void main(String[] args)
 	{
-		System.setProperty("webdriver.chrome.driver","C://Drivers//Chome driver file/chromedriver.exe"); // "Key","Value -chrome driver exe path"
+		System.setProperty("webdriver.chrome.driver","C://Drivers//chromedriver_win32/chromedriver.exe"); // "Key","Value -chrome driver exe path"
 		ChromeDriver driver=new ChromeDriver(); // Created obj of ChromeDriver class, It will open chrome broswer.
 		driver.get("https://opensource-demo.orangehrmlive.com/"); // Open url
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
